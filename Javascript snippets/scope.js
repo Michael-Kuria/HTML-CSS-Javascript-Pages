@@ -18,6 +18,6 @@ console.log(a);
 console.log(scope());
 
 /**
- * let and const are local to the block in which they are defined but, var is local only to the function defined elsewhere it
+ * let and const are local to the block in which they are defined but, var is local only to the function where it is defined, elsewhere it
  * will be on the global scope
  */
